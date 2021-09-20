@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:ital,wght@1,600&display=swap');
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.card_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 320px;
+    margin: 20px;
+    box-shadow: 0px 5px 10px 2px rgb(121 121 121);
+    border-radius: 10px;
+    background-color: #d1d69f
+}
+
+.card_title {
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    padding: 15px;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.card_description {
+    padding: 0px 40px 0 40px;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+}
+
+.card_price {
+    color: #ff5722;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.prev_btn, .next_btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    background-color: burlywood;
+    margin-bottom: 20px;
+    font-size: 18px;
+    box-shadow: 0px 5px 10px 2px rgb(121 121 121);
+    font-weight: bold;
+
+}
+
