@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:ital,wght@1,600&display=swap');
+
+.App {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0px 5px 10px 2px rgb(121 121 121);
+    border-radius: 10px;
+    background-color: antiquewhite;
+    
+}
+
+.h1_title {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 2.4px;
+}
