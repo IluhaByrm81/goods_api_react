@@ -1,7 +1,9 @@
 import React from "react";
 import "./Goods.css";
 
-function Goods({ goods, nextPage, prevPage, validNextPage, validPrevPage }) {
+function Goods(props) {
+  const { goods, nextPage, prevPage, validNextPage, validPrevPage } = props;
+
   return (
     <div className="container">
       <div className="box">
